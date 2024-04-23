@@ -17,12 +17,24 @@ function Home() {
 }
 
 {/* write an <About> component here */}
+//import React from 'react';
 
+function About() {
+  return (
+    <div id="about">
+      <h2>About</h2>
 
+    </div>
+  );
+  
+}
+//export default About;
 function App() {
   return (
     <div>
       <NavBar />
+      <Home />
+      <About />
       {/* add the <Home> component here */}
       {/* add your <About> component here */}
     </div>
